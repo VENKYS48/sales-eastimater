@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Estimator</title>
+</head>
+<body>
+    <h1>Sales Estimator</h1>
+    <form action="/predict" method="post">
+        <label for="tv">TV:</label>
+        <input type="number" id="tv" name="tv" min="0" max="2000" value="10"><br><br>
+        
+        <label for="radio">Radio:</label>
+        <input type="number" id="radio" name="radio" min="0" max="2000" value="10"><br><br>
+        
+        <label for="newspaper">Newspaper:</label>
+        <input type="number" id="newspaper" name="newspaper" min="0" max="2000" value="10"><br><br>
+        
+        <input type="submit" value="Estimate Sales">
+    </form>
+</body>
+</html>
