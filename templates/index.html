@@ -4,47 +4,53 @@
     <title>Sales Estimator</title>
     <style>
         /* styles.css */
-/* ... (Previous CSS styles) */
-
-/* Additional styles for result.html */
 body {
-    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.result-container {
+form {
     max-width: 400px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
-.result-container p {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.result-container a {
+label {
     display: block;
-    text-decoration: none;
-    color: #a41aab;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.result-container a:hover {
-    text-decoration: underline;
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
 }
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #a41aab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #8a0d8c;
+}
+
 
     </style>
 </head>
