@@ -56,7 +56,7 @@ input[type="submit"]:hover {
 </head>
 <body>
     <h1>Sales Estimator</h1>
-    <form action="/predict" method="post">
+    <form>
         <label for="tv">TV:</label>
         <input type="number" id="tv" name="tv" min="0" max="2000" value="10"><br><br>
         
@@ -68,5 +68,9 @@ input[type="submit"]:hover {
         
         <input type="submit" value="Estimate Sales">
     </form>
+
+    <div id="result"></div>
+
+    <script src="index.js"></script>
 </body>
 </html>
