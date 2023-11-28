@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
 
     const fromData = new FormData(form)
 
-    fetch("http://http://20.84.116.88/predict", {
+    fetch("http://20.84.116.88/predict", {
         method: "POST",
         body: fromData
     }).then((res) => {
