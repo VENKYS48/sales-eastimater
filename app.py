@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, json
+from flask import Flask, render_template, request, json, url_for
 from flask_cors import CORS
 import pickle
 import warnings
@@ -32,4 +32,4 @@ def predict():
         return json.dumps({ "result": predicted_sale })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
